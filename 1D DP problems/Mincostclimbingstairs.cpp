@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 int minCostClimbingStairs(vector<int>& cost) {
     vector<int> dp(cost.size()+1);
